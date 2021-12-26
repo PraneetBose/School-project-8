@@ -25,26 +25,26 @@ def area_trapezium(a, b, h):
     return area_trapezium
 
 
-# circle
+# area circle
 print("AREA OF CIRCLE")
 r = int(input("Enter radius of a circle:"))
 num1 = 3.14 * r * r
 print("Area of circle=", num1)
 
-# rectangle
+# area rectangle
 print("AREA OF RECTANGLE")
 l = int(input("Enter the length: "))
 b = int(input("Enter the bredth: "))
 num2 = l * b
 print("area of rectangle=", num2)
 
-# square
+# area square
 print("AREA OF SQUARE")
 s = int(input("Enter the side of the square: "))
 num3 = s * s
 print("Area of square= ", num3)
 
-# trapezium
+# area trapezium
 print("AREA OF TRAPEZIUM")
 a = int(input("Enter the 1st side: "))
 b = int(input("Enter the 2nd side: "))
